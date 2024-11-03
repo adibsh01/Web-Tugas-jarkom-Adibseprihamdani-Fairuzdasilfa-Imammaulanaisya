@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD700;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #FF8C00;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+#produk {
+    background-color: #FFF8DC;
+}
+
+.product {
+    background-color: #FFEFD5;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #FFDEAD;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#kontak {
+    background-color: #FAFAD2;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFD700;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
